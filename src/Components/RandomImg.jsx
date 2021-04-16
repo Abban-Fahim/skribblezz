@@ -3,7 +3,6 @@ import env from "dotenv";
 env.config();
 const accessKey = process.env.REACT_APP_ACCESS;
 const secret = process.env.REACT_APP_SECRET;
-console.log(accessKey, secret);
 
 const RandomImg = (props) => {
   const [src, setSrc] = useState();
