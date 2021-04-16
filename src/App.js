@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import Header from "./Components/Header";
+import Carasoul from "./Components/Carasoul";
+import "./theme.scss";
+import News from "./Components/News";
 
 function App() {
+  const [theme, setTheme] = useState("Light");
+  const [pageName, setpageName] = useState("home");
+  const [page, setPage] = useState();
+
+  useEffect(displaypage, [pageName]);
+
+  function displaypage() {
+    switch (pageName) {
+      case "home":
+        console.log("lol");
+        setPage(<Carasoul setNews={setNews} />);
+        break;
+      case "news":
+        setPage(<News setNews={setNews} />);
+        break;
+      default:
+        setPage(<Carasoul setNews={setNews} />);
+        break;
+    }
+  }
+
+  function setNews(page) {
+    setpageName(page);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={theme}>
+      <Header setNews={setNews} theme={theme} setTheme={setTheme} />
+      {page}
     </div>
   );
 }

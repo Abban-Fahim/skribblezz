@@ -1,0 +1,47 @@
+.bi-list-nested::before {
+  transform: rotateY(180deg);
+}
+
+.scroll {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+  margin: 20px 0;
+  padding: 6px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.Light,
+.Dark {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.nav-item {
+  border-right: 2px solid;
+  border-radius: 0;
+  padding: 2px 17px;
+}
+
+.nav-item:last-child {
+  border: none;
+}
+
+.carousel-inner,
+.carousel-caption {
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  max-height: 500px !important;
+  width: auto;
+}

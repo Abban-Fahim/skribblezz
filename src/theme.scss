@@ -1,0 +1,79 @@
+$white: #ece8e8;
+$black: #2e2d2d;
+$primary-light: #ffba04;
+$primary-dark: #d4ac0d;
+
+.Dark {
+  transition-duration: 0.4s;
+  $primary: $primary-light;
+  background-color: $black;
+  color: $white;
+  .scroll::-webkit-scrollbar-track {
+    background: $black;
+  }
+  .scroll::-webkit-scrollbar-thumb {
+    background: $primary;
+  }
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: $primary-dark;
+  }
+  p {
+    color: $white;
+  }
+  .btn {
+    background-color: $black;
+    color: $white;
+  }
+  .bi {
+    color: $primary;
+  }
+  .nav-item {
+    border-right-color: $primary;
+  }
+  .body {
+    .btn {
+      border: $primary 2px solid;
+    }
+    .btn:hover {
+      background-color: $primary;
+      .bi {
+        color: $black;
+      }
+    }
+  }
+}
+
+.Light {
+  transition-duration: 0.4s;
+  $primary: $primary-dark;
+  background-color: #ece8e8;
+  .scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scroll::-webkit-scrollbar-thumb {
+    background: $primary;
+  }
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: $primary-light;
+  }
+  .bi {
+    color: $primary;
+  }
+  .nav-item {
+    border-right-color: $primary;
+  }
+  .carousel-inner {
+    background-color: $black;
+  }
+  .body {
+    .btn {
+      border: $primary 2px solid;
+    }
+    .btn:hover {
+      background-color: $primary;
+      .bi {
+        color: $white;
+      }
+    }
+  }
+}
