@@ -30,7 +30,7 @@ const Carasoul = (props) => {
               className="carousel-item active"
               onClick={() => props.setNews("news")}
             >
-              <RandomImg img="unemployment" className="d-block" />
+              <RandomImg img="unemployment" className="d-block" num={4} />
               <div className="carousel-caption">
                 <h5>Read Now!</h5>
                 <p>
@@ -40,13 +40,13 @@ const Carasoul = (props) => {
               </div>
             </div>
             <div className="carousel-item">
-              <RandomImg img="cat" className="d-block" />
+              <RandomImg img="cat" className="d-block" num={3} />
               <div className="carousel-caption">
                 <h5>Second slide label</h5>
               </div>
             </div>
             <div className="carousel-item">
-              <RandomImg img="cat" className="d-block" />
+              <RandomImg img="cat" className="d-block" num={7} />
               <div className="carousel-caption">
                 <h5>Third slide label</h5>
               </div>

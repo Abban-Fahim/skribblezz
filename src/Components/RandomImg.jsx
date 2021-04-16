@@ -12,7 +12,7 @@ const RandomImg = (props) => {
     )
       .then((res) => res.json())
       //   .then((res) => console.log(res));
-      .then((res) => setSrc(res.results[0].urls.raw));
+      .then((res) => setSrc(res.results[props.num].urls.raw));
   }
 
   return <img {...props} src={src} alt={props.img} />;

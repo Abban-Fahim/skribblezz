@@ -1,5 +1,7 @@
 $white: #ece8e8;
 $black: #2e2d2d;
+$black-top: #383838;
+$white-top: #cecece;
 $primary-light: #ffba04;
 $primary-dark: #d4ac0d;
 
@@ -29,6 +31,9 @@ $primary-dark: #d4ac0d;
   }
   .nav-item {
     border-right-color: $primary;
+  }
+  .fst-italic {
+    color: $primary;
   }
   .body {
     .btn {
@@ -64,6 +69,9 @@ $primary-dark: #d4ac0d;
   }
   .carousel-inner {
     background-color: $black;
+  }
+  .fst-italic {
+    color: $primary;
   }
   .body {
     .btn {

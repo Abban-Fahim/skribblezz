@@ -14,7 +14,6 @@ function App() {
   function displaypage() {
     switch (pageName) {
       case "home":
-        console.log("lol");
         setPage(<Carasoul setNews={setNews} />);
         break;
       case "news":

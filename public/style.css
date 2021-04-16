@@ -25,6 +25,14 @@ h1 {
   font-family: "Dancing Script", cursive;
 }
 
+h2 {
+  font-family: "Cinzel", serif;
+  margin-top: 24px;
+}
+.fst-italic {
+  font-family: "Cinzel", serif;
+}
+
 .nav-item {
   border-right: 2px solid;
   border-radius: 0;
@@ -40,8 +48,32 @@ h1 {
   text-align: center;
 }
 
-img {
+.carousel-item > img {
   margin: 0 auto;
   max-height: 500px !important;
   width: auto;
+}
+
+.para:first-child::first-letter {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+
+.para {
+  font-family: "PT Sans", sans-serif;
+  text-indent: 20px;
+  margin: 23px 0;
+  font-size: 17px;
+  padding: 0 5vw;
+}
+
+.body > div > img {
+  padding: 0px 10vw;
+  max-height: 40vw;
+}
+
+@media (max-width: 750px) {
+  .body > div > img {
+    padding: 0;
+  }
 }
