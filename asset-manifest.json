@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/skribblezz/static/css/main.907f0616.chunk.css",
+    "main.js": "/skribblezz/static/js/main.e6a079f0.chunk.js",
+    "main.js.map": "/skribblezz/static/js/main.e6a079f0.chunk.js.map",
+    "runtime-main.js": "/skribblezz/static/js/runtime-main.b2e1cb44.js",
+    "runtime-main.js.map": "/skribblezz/static/js/runtime-main.b2e1cb44.js.map",
+    "static/js/2.1aa5b26a.chunk.js": "/skribblezz/static/js/2.1aa5b26a.chunk.js",
+    "static/js/2.1aa5b26a.chunk.js.map": "/skribblezz/static/js/2.1aa5b26a.chunk.js.map",
+    "index.html": "/skribblezz/index.html",
+    "static/css/main.907f0616.chunk.css.map": "/skribblezz/static/css/main.907f0616.chunk.css.map",
+    "static/js/2.1aa5b26a.chunk.js.LICENSE.txt": "/skribblezz/static/js/2.1aa5b26a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2e1cb44.js",
+    "static/js/2.1aa5b26a.chunk.js",
+    "static/css/main.907f0616.chunk.css",
+    "static/js/main.e6a079f0.chunk.js"
+  ]
+}
