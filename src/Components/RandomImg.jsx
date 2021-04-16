@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
-const accessKey = "-mon2y53XNO6bOMaM_ZKsjftNg6VIqzS8BBUt-H2dA4";
-const secret = "1c_RVggSmUvczeNTbAEcwgPMfTflCD-Ydw9lYLcZVsA";
+import env from "dotenv";
+env.config();
+const accessKey = process.env.REACT_APP_ACCESS;
+const secret = process.env.REACT_APP_SECRET;
+console.log(accessKey, secret);
 
 const RandomImg = (props) => {
   const [src, setSrc] = useState();
-  useEffect(getImg, [props.img]);
+  useEffect(getImg, [props.img, props.num]);
 
   function getImg() {
     fetch(
