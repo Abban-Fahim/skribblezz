@@ -10,14 +10,17 @@ $primary-dark: #d4ac0d;
   $primary: $primary-light;
   background-color: $black;
   color: $white;
+  nav {
+    background-color: $black;
+  }
   .scroll::-webkit-scrollbar-track {
     background: $black;
   }
   .scroll::-webkit-scrollbar-thumb {
     background: $primary;
-  }
-  .scroll::-webkit-scrollbar-thumb:hover {
-    background: $primary-dark;
+    &:hover {
+      background: $primary-dark;
+    }
   }
   p {
     color: $white;
@@ -26,29 +29,44 @@ $primary-dark: #d4ac0d;
     background-color: $black;
     color: $white;
   }
-  .bi {
-    color: $primary;
-  }
   .nav-item {
     border-right-color: $primary;
   }
-  .fst-italic {
+  .fst-italic,
+  li::marker,
+  .bi,
+  a {
     color: $primary;
   }
   .body {
     .btn {
       border: $primary 2px solid;
-    }
-    .btn:hover {
-      background-color: $primary;
-      .bi {
-        color: $black;
+      &:hover {
+        background-color: $primary;
+        .bi {
+          color: $black;
+        }
       }
     }
+  }
+  .newsBox div {
+    background-color: $black-top;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+  footer {
+    background-color: $black-top;
+  }
+  figure {
+    border-left: $black-top 34px solid;
   }
 }
 
 .Light {
+  nav {
+    background-color: $white;
+  }
   transition-duration: 0.4s;
   $primary: $primary-dark;
   background-color: #ece8e8;
@@ -57,12 +75,9 @@ $primary-dark: #d4ac0d;
   }
   .scroll::-webkit-scrollbar-thumb {
     background: $primary;
-  }
-  .scroll::-webkit-scrollbar-thumb:hover {
-    background: $primary-light;
-  }
-  .bi {
-    color: $primary;
+    &:hover {
+      background: $primary-light;
+    }
   }
   .nav-item {
     border-right-color: $primary;
@@ -70,18 +85,33 @@ $primary-dark: #d4ac0d;
   .carousel-inner {
     background-color: $black;
   }
-  .fst-italic {
-    color: $primary;
-  }
   .body {
     .btn {
       border: $primary 2px solid;
-    }
-    .btn:hover {
-      background-color: $primary;
-      .bi {
-        color: $white;
+      &:hover {
+        background-color: $primary;
+        .bi {
+          color: $white;
+        }
       }
     }
+  }
+  .fst-italic,
+  li::marker,
+  .bi,
+  a {
+    color: $primary;
+  }
+  .newsBox div {
+    background-color: $white-top;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+  footer {
+    background-color: $white-top;
+  }
+  figure {
+    border-left: $white-top 34px solid;
   }
 }

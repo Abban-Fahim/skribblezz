@@ -15,7 +15,7 @@ const topics = [
   "Development",
 ];
 
-const Header = ({ theme, setTheme, setNews }) => {
+const Header = ({ theme, setTheme, setNews, setTopic }) => {
   return (
     <nav>
       <Logo onClick={() => setNews("home")} />
@@ -23,7 +23,13 @@ const Header = ({ theme, setTheme, setNews }) => {
       <div className="scroll">
         {topics.map((topic) => {
           return (
-            <button key={topic} className="btn nav-item">
+            <button
+              key={topic}
+              className="btn nav-item"
+              onClick={() => {
+                setTopic(topic);
+              }}
+            >
               {topic}
             </button>
           );

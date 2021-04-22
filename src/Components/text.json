@@ -1,5 +1,78 @@
 [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius vitae libero varius hendrerit. Ut pellentesque id urna a pulvinar. Curabitur massa erat, viverra sed elementum tristique, blandit a urna. Fusce sodales euismod dignissim. Vivamus efficitur leo ac ex facilisis fermentum. Pellentesque egestas sapien non dui dapibus mollis. Quisque ac leo vel mi convallis faucibus eleifend at felis. Integer nec lorem hendrerit, pellentesque velit et, elementum sem. Quisque suscipit dapibus mi, sed laoreet dui convallis quis. Maecenas elit diam, dignissim non vulputate ut, faucibus eget dolor. Aliquam erat volutpat. Phasellus lectus libero, pharetra eget maximus imperdiet, mollis quis felis. Praesent molestie metus vel nulla convallis, vitae vestibulum lacus rhoncus. Nunc vulputate fringilla elit quis interdum.",
-  "Nulla nisl justo, congue non cursus at, tincidunt vel est. Pellentesque erat justo, luctus a justo nec, consequat imperdiet elit. Praesent id lectus sapien. Fusce et laoreet massa. Curabitur non mi suscipit odio egestas sagittis sit amet iaculis magna. Nullam iaculis, massa id consectetur viverra, eros quam hendrerit mauris, non pulvinar urna leo eget nunc. Vestibulum diam dolor, auctor eu placerat eget, commodo faucibus nunc. Nullam sed velit leo. Etiam blandit et lacus nec rutrum. In quam magna, elementum vitae viverra at, ultrices ut lorem. Aenean cursus, diam quis iaculis ornare, orci ex pulvinar nunc, vel molestie diam arcu convallis felis. Aliquam iaculis ultrices tortor, sed egestas urna tempor non. Suspendisse maximus mattis aliquet. Quisque auctor eleifend sodales.",
-  "Phasellus nec nulla mauris. Duis nibh mauris, molestie vel vehicula in, luctus quis ex. Fusce iaculis ligula mauris, sed faucibus risus ullamcorper vitae. Vestibulum iaculis erat tellus, vel viverra metus laoreet at. Sed felis velit, congue non congue in, elementum at nibh. Nullam tempus efficitur auctor. Fusce et dolor eget nisl suscipit congue nec vitae leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque mi mi, congue et justo non, faucibus mollis tortor. Suspendisse vel vestibulum velit. Fusce dolor ex, faucibus sed suscipit non, suscipit vel odio. Suspendisse a urna vestibulum nulla ultrices aliquet eget at elit. Integer dui ante, auctor ac nisl sed, mattis ultrices orci."
+  {
+    "type": "text",
+    "text": "Ever since countries around the world started going into lockdown in early 2020, the education sector has coined a new,    trendy word - ‘Online education’. With the inability to conduct physical, on-campus studying, educational institutes and    examination boards alike had started looking for alternatives. With the increasing availability and importance of    electronic devices and the Internet, it only came naturally to take full advantage of the things that are “corrupting    today’s young people”, and use them productively for once."
+  },
+  {
+    "type": "text",
+    "text": "So what does this highly productive frame of learning comprise of you ask? Well, it requires the following, "
+  },
+  {
+    "type": "list",
+    "list": [
+      "an online portal managed by the institute, where students can gain access to resources and learning material",
+      "a Learning Management System (LMS) for managing administrative tasks",
+      "a video communications platform for recreating daily, face-to-face classes",
+      "an electronic device, camera and microphone for every student, teacher and most other academic faculties"
+    ]
+  },
+  {
+    "type": "text",
+    "text": "Surely the above described, ingenious and harmonious workflow that 90.2% educational institutes in the world adopted    instantly would have no flaw in it. Well yes, but no. As with anything humans have created, it came with its own    amenities and imperfections. First, let’s talk about the good side rather than the inevitable worse. "
+  },
+  {
+    "type": "text",
+    "text": "Although it’s quite unnecessary to say this but this new option was much, much more safer, and we can safely say that    humanity eliminated the worst of the virus by ensuring the kids safety. It also allowed students and teachers alike to    approach learning in a manner unlike any before, and gave some of our digitally wizened individuals to brush up on their    computer literacy. It also gave them a chance to explore the World Wide Web for its myriad of educational resources.    Those who abandoned schools completely were able to experience self-paced, flexible learning, mainly focusing on    real-life skills over the conventional curriculums. Another slightly less remarkable advantage was that learning could go    on unabated by any and all extreme weather conditions (rain, hail, etc)."
+  },
+  {
+    "type": "text",
+    "text": "There was also the luxury of a home that came with online learning, but whether it was for the better is a debatable    question. That, as well as the “accessibility” many claim    that it offers for everyone, can be questioned.    Distractions and unreliable Internet, noisy environments and technical issues are all too common problems in this    education system. Such hindrances get in the way of classroom productivity and can cause great annoyance to    teachers and students alike. All teachers worldwide have experienced their own bouts of difficulties and frustration in    trying to learn how to operate Zoom, and its brethren"
+  },
+  {
+    "type": "quote",
+    "text": "No amount of online instruction can replace the power and potential of student-teacher relationships and the learning    that happens in that context. Both teachers and students are the lesser for that",
+    "author": "Joshua Fleming, Redmond, US, teaches 9th grade"
+  },
+  {
+    "type": "text",
+    "text": "Students however were hovering somewhere in the middle but most still miss interacting with their friends, or find    themselves pressured by assignments, or distractions, or from any other multitude of reasons"
+  },
+  {
+    "type": "quote",
+    "text": "Remote learning has introduced a new classroom dynamic, in which the inability to see one’s classmates/students causes classmates to begin speaking at the same time (and consequently stop speaking) and teachers to move on to    the next subject despite a student’s hurried attempt to type their question into the chat box",
+    "author": "Cindy Li, 16, Pearland, Texas, US"
+  },
+  {
+    "type": "quote",
+    "text": "I have committed to college, school has been canceled (any student’s dream), and ice cream can be eaten for    breakfast, lunch, and dinner. So why do I still wish that I was back in school?",
+    "author": "Ethan Turkewitz, 17, New Rochelle, N.Y, US"
+  },
+  {
+    "type": "text",
+    "text": "That being said, school is agreeably very different online, but the ugly truth about it is rather implicit and sometimes    forgotten by the 4 billion people on Earth who have access to a decent gadget and and high speed broadband. "
+  },
+  {
+    "type": "text",
+    "text": "Well firstly it’s the inevitable examinations that students of all ages have to take at the end of the academic year. Yes, it    can be and was done online, but that presented its own challenges for international examination boards, like the IGCSE,    which require the entire world to complete the examination simultaneously. Whereas some countries could conduct    examinations with minimum social distancing, others were in complete lockdown, making it impossible to do so. The    problem’s effects were reflected in the summer of 2020, where unwilling teachers had to give estimated grades for their    students, causing many students to be unhappy and campaign against downgraded results. Currently, the IGCSE board    has not curated a better system and this year’s exams are scheduled to happen the same way"
+  },
+  {
+    "type": "text",
+    "text": "Lastly, is the inaccessibility that was widespread even in the most developed countries. Students living in rural    communities had few or no access to Internet services. Young children who need parent monitoring can find it difficult    to learn if both their parents work. The economic destruction Covid-19 left in its wake also put many parents out of    work, making it difficult for them to provide decent devices for their children, making the digital divide’s chasm even    deeper and have a worse landing. The chasm here, for students, is that they start lacking and fall behind their    economically advantaged peers. "
+  },
+  {
+    "type": "text",
+    "text": "In conclusion, the negative effects of e-learning far outweigh its advantages. It may attract college students who are    pursuing their professional careers, but for younger students it’s difficult to learn without the presence of caring    teachers and friends, if they can study online at all that is. "
+  },
+  {
+    "type": "text",
+    "text": "Refrences"
+  },
+  {
+    "type": "list",
+    "list": [
+      "<a href='https://svoga.svvsd.org/about/online-ed-is-not-for-everyone'>https://svoga.svvsd.org/about/online-ed-is-not-for-everyone</a>",
+      "<a href='https://www.lexialearning.com/blog/online-learning-accessible-all'>https://www.lexialearning.com/blog/online-learning-accessible-all</a>",
+      "Quotes from: <a href='https://www.nytimes.com/2020/04/23/education/learning/coronavirus-teachers-students-remotelearning.html'>here</a>"
+    ]
+  }
 ]

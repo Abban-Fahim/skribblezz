@@ -1,11 +1,11 @@
 import React from "react";
+import logo from "./../logo.png";
 
 const Logo = (props) => {
   return (
     <div className="d-inline" {...props}>
       <h1 style={{ display: "inline", marginRight: "17px" }}>Skribblezz</h1>
-      <i className="h1 bi bi-pen"></i>
-      <i className="h1 bi bi-list-nested"></i>
+      <img src={logo} alt="logo" width="10px" />
     </div>
   );
 };

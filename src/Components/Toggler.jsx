@@ -11,7 +11,9 @@ const Toggler = ({ theme, setTheme }) => {
       onClick={toggleTheme}
       className="btn btn-lg float-end"
     >
-      Toggle theme
+      <i
+        className={"bi bi-" + (theme === "Light" ? "sun-fill" : "moon-fill")}
+      ></i>
     </button>
   );
 };

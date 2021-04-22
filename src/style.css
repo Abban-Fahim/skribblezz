@@ -21,8 +21,18 @@
   min-height: 100vh;
 }
 
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Dancing Script", cursive;
+}
+
+.img-thumbnail {
+  background-color: transparent;
+  border: none;
 }
 
 h2 {
@@ -31,6 +41,12 @@ h2 {
 }
 .fst-italic {
   font-family: "Cinzel", serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
 }
 
 .nav-item {
@@ -67,13 +83,47 @@ h2 {
   padding: 0 5vw;
 }
 
+li {
+  list-style-image: url(./pen.svg);
+}
+
+li span {
+  position: relative;
+  font-size: 17px;
+  bottom: 4px;
+  left: 4px;
+}
+
+ul {
+  margin-left: 69px;
+}
+
 .body > div > img {
   padding: 0px 10vw;
   max-height: 40vw;
+}
+
+figure {
+  margin: 23px 95px;
+  padding-left: 20px;
+}
+
+img[alt="logo"] {
+  width: 83px;
+  position: absolute;
+  top: 3px;
+  left: 148px;
 }
 
 @media (max-width: 750px) {
   .body > div > img {
     padding: 0;
   }
+  ul {
+    margin-left: 43px;
+  }
+}
+
+footer {
+  min-height: 200px;
 }
