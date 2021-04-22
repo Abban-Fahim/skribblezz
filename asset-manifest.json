@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/skribblezz/static/css/main.63d2b09e.chunk.css",
-    "main.js": "/skribblezz/static/js/main.0b065449.chunk.js",
-    "main.js.map": "/skribblezz/static/js/main.0b065449.chunk.js.map",
+    "main.css": "/skribblezz/static/css/main.53b68b69.chunk.css",
+    "main.js": "/skribblezz/static/js/main.81d17daa.chunk.js",
+    "main.js.map": "/skribblezz/static/js/main.81d17daa.chunk.js.map",
     "runtime-main.js": "/skribblezz/static/js/runtime-main.b2e1cb44.js",
     "runtime-main.js.map": "/skribblezz/static/js/runtime-main.b2e1cb44.js.map",
-    "static/js/2.a475e02f.chunk.js": "/skribblezz/static/js/2.a475e02f.chunk.js",
-    "static/js/2.a475e02f.chunk.js.map": "/skribblezz/static/js/2.a475e02f.chunk.js.map",
+    "static/js/2.8daa48e6.chunk.js": "/skribblezz/static/js/2.8daa48e6.chunk.js",
+    "static/js/2.8daa48e6.chunk.js.map": "/skribblezz/static/js/2.8daa48e6.chunk.js.map",
     "index.html": "/skribblezz/index.html",
-    "static/css/main.63d2b09e.chunk.css.map": "/skribblezz/static/css/main.63d2b09e.chunk.css.map",
-    "static/js/2.a475e02f.chunk.js.LICENSE.txt": "/skribblezz/static/js/2.a475e02f.chunk.js.LICENSE.txt",
-    "static/media/main.b4815072.jpg": "/skribblezz/static/media/main.b4815072.jpg"
+    "static/css/main.53b68b69.chunk.css.map": "/skribblezz/static/css/main.53b68b69.chunk.css.map",
+    "static/js/2.8daa48e6.chunk.js.LICENSE.txt": "/skribblezz/static/js/2.8daa48e6.chunk.js.LICENSE.txt",
+    "static/media/main.b4815072.jpg": "/skribblezz/static/media/main.b4815072.jpg",
+    "static/media/style.css": "/skribblezz/static/media/pen.bd4f930e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b2e1cb44.js",
-    "static/js/2.a475e02f.chunk.js",
-    "static/css/main.63d2b09e.chunk.css",
-    "static/js/main.0b065449.chunk.js"
+    "static/js/2.8daa48e6.chunk.js",
+    "static/css/main.53b68b69.chunk.css",
+    "static/js/main.81d17daa.chunk.js"
   ]
 }
