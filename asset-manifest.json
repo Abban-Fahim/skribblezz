@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skribblezz/static/css/main.53b68b69.chunk.css",
-    "main.js": "/skribblezz/static/js/main.81d17daa.chunk.js",
-    "main.js.map": "/skribblezz/static/js/main.81d17daa.chunk.js.map",
+    "main.js": "/skribblezz/static/js/main.1e0cfd1f.chunk.js",
+    "main.js.map": "/skribblezz/static/js/main.1e0cfd1f.chunk.js.map",
     "runtime-main.js": "/skribblezz/static/js/runtime-main.b2e1cb44.js",
     "runtime-main.js.map": "/skribblezz/static/js/runtime-main.b2e1cb44.js.map",
     "static/js/2.8daa48e6.chunk.js": "/skribblezz/static/js/2.8daa48e6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b2e1cb44.js",
     "static/js/2.8daa48e6.chunk.js",
     "static/css/main.53b68b69.chunk.css",
-    "static/js/main.81d17daa.chunk.js"
+    "static/js/main.1e0cfd1f.chunk.js"
   ]
 }
