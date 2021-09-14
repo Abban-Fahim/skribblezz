@@ -33,7 +33,9 @@ const Carasoul = (props) => {
               <img src={main} alt="online eudcation" className="d-block" />
               <div className="carousel-caption">
                 <h5>Read Now!</h5>
-                <p>Online Education: The Good, The Bad, The Ugly</p>
+                <p style={{ color: "black" }}>
+                  Online Education: The Good, The Bad, The Ugly
+                </p>
               </div>
             </div>
             <div className="carousel-item">

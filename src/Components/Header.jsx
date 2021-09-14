@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "./Logo";
 import Toggler from "./Toggler";
+import lodash from "lodash";
+
 const topics = [
   "Technology",
   "Space",
@@ -27,7 +29,7 @@ const Header = ({ theme, setTheme, setNews, setTopic }) => {
               key={topic}
               className="btn nav-item"
               onClick={() => {
-                setTopic(topic);
+                setTopic(lodash.lowerCase(topic));
               }}
             >
               {topic}

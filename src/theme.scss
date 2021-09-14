@@ -16,7 +16,8 @@ $primary-dark: #d4ac0d;
   .scroll::-webkit-scrollbar-track {
     background: $black;
   }
-  .scroll::-webkit-scrollbar-thumb {
+  .scroll::-webkit-scrollbar-thumb,
+  input {
     background: $primary;
     &:hover {
       background: $primary-dark;

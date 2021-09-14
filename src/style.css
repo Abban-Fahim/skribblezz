@@ -127,3 +127,8 @@ img[alt="logo"] {
 footer {
   min-height: 200px;
 }
+
+footer .bi {
+  margin: 20px;
+  font-size: 30px;
+}

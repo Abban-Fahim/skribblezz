@@ -5,7 +5,6 @@ import "./theme.scss";
 import "./style.css";
 import News from "./Components/News";
 import NewsBox from "./Components/NewsBox";
-import NewsPage from "./Components/NewsPage";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -13,12 +12,12 @@ function App() {
   const [pageName, setpageName] = useState("home");
   const [page, setPage] = useState();
   const [news, getNews] = useState();
-  const [topic, setTopic] = useState("Business");
+  const [topic, setTopic] = useState("Rmadan");
 
   useEffect(() => {
     displaypage();
     getArticles();
-  }, [pageName, topic]);
+  }, [topic, pageName]);
 
   function displaypage() {
     switch (pageName) {
@@ -27,9 +26,6 @@ function App() {
         break;
       case "news":
         setPage(<News setNews={setNews} />);
-        break;
-      case "topic":
-        setPage(<NewsPage news={news} />);
         break;
       default:
         setPage(<Carasoul setNews={setNews} />);
@@ -42,16 +38,15 @@ function App() {
   }
 
   function getArticles() {
-    console.log(process.env.REACT_APP_NEWS, "codeee");
-    let url = `https://api.bing.microsoft.com/v7.0/search`;
+    let url = `https://api.bing.microsoft.com/v7.0/news/search?q=${topic}&setLang=en&answerCount=10`;
     fetch(url, {
       headers: {
         "Ocp-Apim-Subscription-Key": process.env.REACT_APP_NEWS,
       },
     })
       .then((res) => res.json())
-      .then((res) => console.log(res));
-    // .then((res) => getNews(res));
+      // .then((res) => console.log(res));
+      .then((res) => getNews(res));
     console.log(news);
   }
 
@@ -66,8 +61,8 @@ function App() {
       {page}
       <div className="container-fluid">
         <div className="row">
-          {news && pageName !== "topic"
-            ? news.articles.map((article, num) => (
+          {news
+            ? news.value.map((article, num) => (
                 <NewsBox key={num} news={article} />
               ))
             : null}
